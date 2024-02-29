@@ -5,7 +5,7 @@ import "./Header.scss";
 const Header = () => {
   // const [open, setOpen] = React.useState(false);
   return (
-    <header className="header d-flex gap-md flex-column fw-bold">
+    <header className="container header d-flex gap-md flex-column fw-bold">
       <ListButtons />
       <nav>
         <ul

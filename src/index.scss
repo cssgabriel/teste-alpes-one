@@ -58,6 +58,11 @@ ul {
   list-style: none;
 }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .fw-light {
   font-weight: 300;
 }

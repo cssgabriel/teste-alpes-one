@@ -1,15 +1,67 @@
 .form {
+  font-size: 1.4rem;
   padding: var(--gutter-md) 2rem;
+  max-width: 28rem;
+  box-shadow: 0 8px 8px -2px rgba($color: #000000, $alpha: 0.1);
+  & fieldset {
+    all: unset;
+    display: block;
+    border: none;
+    max-width: 100%;
+    & legend {
+      gap: 10px;
+      padding-bottom: 3.2rem;
+      font-size: 20px;
+      & svg {
+        width: 23px;
+      }
+    }
+  }
   & div {
     box-shadow: 0 1px 0 0 var(--color-4);
     transition: box-shadow 0.3s;
-    & label,
-    input {
-      font-size: 1.4rem;
+    padding-bottom: 10px;
+    & > label,
+    > input {
+      display: block;
+      font-family: inherit;
+      font-size: inherit;
       color: var(--color-3);
+      transition: all 0.3s;
+      width: 100%;
+    }
+    & label {
+      z-index: -1;
+      &.filled {
+        animation: toUpper forwards linear 0.2s;
+      }
+    }
+    & input {
+      border: none;
+      outline: none;
+      &:focus::placeholder {
+        opacity: 0;
+      }
     }
     &:hover {
       box-shadow: 0 2px 0 0 var(--color-4);
     }
+    &:has(input:focus) {
+      box-shadow: 0 1px 0 0 var(--color-s);
+      & label {
+        animation: toUpper forwards linear 0.2s;
+      }
+    }
+  }
+  & div + div {
+    margin-top: var(--gutter-md);
+  }
+}
+
+@keyframes toUpper {
+  to {
+    transform: translateY(-20px);
+    font-size: 12px;
+    z-index: 1;
   }
 }

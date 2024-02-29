@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "BMW-Bold";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/BMWTypeNext-Bold.20210426144302.ttf")
+    format("opentype");
+}
+@font-face {
+  font-family: "BMW-Light";
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/fonts/BMWTypeNext-Light.20210426144302.ttf")
+    format("opentype");
+}
+
+:root {
+  font-family: "BMW-Light", sans-serif;
+  line-height: 1.35;
+  font-weight: 300;
+  font-size: 62.5%;
+
+  color: #262626;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}

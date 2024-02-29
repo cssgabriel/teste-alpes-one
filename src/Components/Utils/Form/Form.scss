@@ -1,0 +1,11 @@
+.form {
+  padding: var(--gutter-md) 2rem;
+  & div {
+    border-bottom: 1px solid var(--color-4);
+    & label,
+    input {
+      font-size: 1.4rem;
+      color: var(--color-3);
+    }
+  }
+}

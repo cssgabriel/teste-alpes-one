@@ -6,18 +6,25 @@ import Button from "./Utils/Button";
 const Header = () => {
   return (
     <header className="header">
-      <Button href="tel:+552120424442">
-        <TelefoneSVG />
-        (21)2042-4442
-      </Button>
-      <Button style={{ textTransform: "uppercase" }}>
-        <Circle360SVG />
-        Tour virtual
-      </Button>
-      <Button style={{ textTransform: "uppercase" }}>
-        <WhatsappSVG />
-        Whatsapp
-      </Button>
+      <nav className="d-flex gap-md">
+        <Button href="tel:+552120424442">
+          <TelefoneSVG />
+          (21)2042-4442
+        </Button>
+        <Button style={{ textTransform: "uppercase" }}>
+          <Circle360SVG />
+          Tour virtual
+        </Button>
+        <Button
+          style={{
+            textTransform: "uppercase",
+            backgroundColor: "var(--color-accent)",
+          }}
+        >
+          <WhatsappSVG />
+          Whatsapp
+        </Button>
+      </nav>
     </header>
   );
 };

@@ -1,0 +1,7 @@
+.header {
+  padding: var(--gutter-md) 0;
+  font-size: 1.4rem;
+  & nav ul li {
+    cursor: pointer;
+  }
+}

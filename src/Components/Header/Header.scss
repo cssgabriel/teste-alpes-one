@@ -1,6 +1,8 @@
 .header {
   padding: var(--gutter-md) var(--gutter-sm);
   font-size: 1.4rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
   & nav ul li {
     cursor: pointer;
   }

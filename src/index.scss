@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "BMW-Bold";
+  font-family: "BMW";
   font-weight: 700;
   font-display: swap;
   src: url("./assets/fonts/BMWTypeNext-Bold.20210426144302.ttf")
     format("opentype");
 }
 @font-face {
-  font-family: "BMW-Light";
+  font-family: "BMW";
   font-weight: 300;
   font-display: swap;
   src: url("./assets/fonts/BMWTypeNext-Light.20210426144302.ttf")
@@ -14,14 +14,15 @@
 }
 
 :root {
-  --font-primary: "BMW-Light", sans-serif;
+  --font-primary: "BMW", sans-serif;
   --gutter-sm: 1.5rem;
   --gutter-md: 3rem;
   --gutter-xl: 6rem;
-  --color-primary: #ffffff;
-  --color-gray-1: #262626;
-  --color-gray-2: #666666;
-  --color-gray-3: #e6e6e6;
+  --color-1: #ffffff;
+  --color-2: #262626;
+  --color-3: #666666;
+  --color-4: #e6e6e6;
+  --color-5: #000000;
   font-family: var(--font-primary);
   line-height: 1.35;
   font-weight: 300;
@@ -54,4 +55,12 @@ svg {
 
 ul {
   list-style: none;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-bold {
+  font-weight: 700;
 }

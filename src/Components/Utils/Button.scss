@@ -3,7 +3,9 @@
   font-size: 1.4rem;
   background-color: var(--color-5);
   color: var(--color-1);
+  gap: 6px;
   & svg {
-    width: 1.425rem;
+    fill: currentColor;
+    width: 1.9rem;
   }
 }

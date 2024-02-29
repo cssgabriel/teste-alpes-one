@@ -64,3 +64,17 @@ ul {
 .fw-bold {
   font-weight: 700;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.gap-sm {
+  gap: var(--gutter-sm);
+}
+.gap-md {
+  gap: var(--gutter-md);
+}
+.gap-xl {
+  gap: var(--gutter-xl);
+}

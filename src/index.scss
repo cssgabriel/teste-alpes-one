@@ -14,7 +14,11 @@
 }
 
 :root {
-  font-family: "BMW-Light", sans-serif;
+  --font-primary: "BMW-Light", sans-serif;
+  --gutter-sm: 1.5rem;
+  --gutter-md: 3rem;
+  --gutter-xl: 6rem;
+  font-family: var(--font-primary);
   line-height: 1.35;
   font-weight: 300;
   font-size: 62.5%;

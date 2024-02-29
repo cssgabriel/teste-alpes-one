@@ -3,8 +3,10 @@ import "./Banner.scss";
 
 const Banner = () => {
   return (
-    <section className="banner d-flex container">
-      <Form />
+    <section className="banner">
+      <div className="d-flex container">
+        <Form />
+      </div>
     </section>
   );
 };

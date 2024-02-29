@@ -1,6 +1,10 @@
 .banner {
-  justify-content: flex-end;
-  align-items: flex-start;
-  height: 40.625vw;
-  padding: var(--gutter-sm) 0;
+  background-image: url("../../../assets/imgs/banners/desktop-banner.jpg");
+  background-size: cover;
+  & > div {
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 40.625vw;
+    padding: var(--gutter-sm) 0;
+  }
 }

@@ -1,5 +1,7 @@
+import "./Cars.scss";
+
 const Cars = () => {
-  return <section>Cars</section>;
+  return <section className="container cars">Cars</section>;
 };
 
 export default Cars;

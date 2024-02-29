@@ -13,13 +13,14 @@ const ListButtons = () => {
         </Button>
       </li>
       <li>
-        <Button style={{ textTransform: "uppercase" }}>
+        <Button href="#" style={{ textTransform: "uppercase" }}>
           <Circle360SVG />
           Tour virtual
         </Button>
       </li>
       <li>
         <Button
+          href="#"
           style={{
             textTransform: "uppercase",
             backgroundColor: "var(--color-accent)",

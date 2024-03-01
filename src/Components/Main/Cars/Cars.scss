@@ -6,4 +6,33 @@
     font-size: 4rem;
     text-align: center;
   }
+  & .cars__grid-list {
+    padding-top: var(--gutter-xl);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: var(--gutter-md);
+    & img {
+      object-fit: cover;
+    }
+    & .cars__grid-content {
+      padding: 1.6rem 2rem 2rem;
+      flex-direction: column;
+    }
+    & h3 {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    & .cars__grid-medias {
+      padding: 4px 0;
+      & p {
+        font-size: 1.2rem;
+      }
+      & a,
+      svg {
+        max-width: 1.6rem;
+        color: var(--color-3);
+        fill: var(--color-3);
+      }
+    }
+  }
 }

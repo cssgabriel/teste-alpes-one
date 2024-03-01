@@ -16,6 +16,11 @@
       color: transparent;
     }
   }
+  &.top .form {
+    transform: translateY(-10vw);
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @keyframes toLeft {

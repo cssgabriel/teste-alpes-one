@@ -49,6 +49,9 @@
 a {
   display: block;
   text-decoration: none;
+  &:hover svg {
+    fill: var(--color-s) !important;
+  }
 }
 
 img,

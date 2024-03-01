@@ -6,6 +6,7 @@ import Modal from "../../Utils/Modal";
 import Header from "../../Header/Header";
 
 const Banner = () => {
+  // const mobile = document.documentElement.classList.contains("mobile");
   const formRef = React.useRef(null);
 
   const [isVisible, setIsVisible] = React.useState(false);

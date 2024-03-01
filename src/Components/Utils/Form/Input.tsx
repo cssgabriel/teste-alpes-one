@@ -30,6 +30,23 @@ const Input = (
     );
   }
 
+  if (props.input.type === "textarea") {
+    return (
+      <>
+        <label
+          {...props.label}
+          style={{ display: "flex", gap: "10px", padding: "1.6rem 0" }}
+        ></label>
+        <textarea
+          name={props.input.name ?? props.input.id}
+          id={props.input.id}
+          cols={30}
+          rows={10}
+        ></textarea>
+      </>
+    );
+  }
+
   return (
     <div className="position-relative">
       <label

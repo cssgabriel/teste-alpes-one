@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
+import WhatsAppIcon from "./Components/Utils/WhatsAppIcon";
 
 function App() {
   const [mobile, setMobile] = React.useState(false);
@@ -26,6 +27,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      {mobile && <WhatsAppIcon href="#" />}
     </>
   );
 }

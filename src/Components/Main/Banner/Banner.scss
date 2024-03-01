@@ -4,7 +4,7 @@
   & > div {
     justify-content: flex-end;
     align-items: flex-start;
-    padding: var(--gutter-sm) 0;
+    padding: var(--gutter-sm);
   }
 }
 
@@ -16,8 +16,10 @@
     // max-height: 78.6rem;
   }
 }
-@media (max-width: 432px) {
+@media (max-width: 876px) {
   .banner {
     background-image: url("../../../assets/imgs/banners/mobile-banner.png");
+    height: 120vw;
+    background-position: center;
   }
 }

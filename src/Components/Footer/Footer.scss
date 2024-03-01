@@ -1,0 +1,28 @@
+.footer {
+  padding: 4rem 0;
+  background-color: var(--color-5);
+  text-align: center;
+  & .content {
+    padding-bottom: 4rem;
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--color-4);
+  }
+  & .footer-info {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    & .copyright {
+      font-size: 1.2rem;
+    }
+    & .d-flex {
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  & .footer__logo {
+    background-image: url("../../assets/imgs/logos/logo-bmw-rio.svg");
+    background-size: cover;
+    width: 5rem;
+    height: 5rem;
+  }
+}

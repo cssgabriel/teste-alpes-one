@@ -2,6 +2,16 @@
 
 1. Faça o clone deste repositório
 
+```
+https://github.com/cssgabriel/teste-alpes-one.git
+```
+
+2. Rode o comando `npm install` e em seguida `npm run dev`
+
+# Deploy
+
+- [Acessar site](https://gabrielcss.com.br)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

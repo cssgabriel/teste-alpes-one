@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import LogoAlpes from "../../assets/imgs/logos/logo-alpes.png";
 
 const Footer = () => {
   return (
@@ -18,10 +19,7 @@ const Footer = () => {
           </p>
           <div className="d-flex">
             <span>Feito por:</span>
-            <img
-              src="./src/assets/imgs/logos/logo-alpes.png"
-              alt="Logo Alpes One"
-            />
+            <img src={LogoAlpes} alt="Logo Alpes One" />
           </div>
         </div>
       </div>

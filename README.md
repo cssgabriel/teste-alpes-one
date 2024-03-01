@@ -3,25 +3,37 @@
 1. Faça o clone deste repositório
 
 ```
-https://github.com/cssgabriel/teste-alpes-one.git
+https://cssgabriel-teste-alpes-one.git
 ```
 
 2. Rode o comando `npm install` e em seguida `npm run dev`
 
 # Deploy
 
-- [Acessar site](https://gabrielcss.com.br)
+Não utilizei o GitHub Pages, tive um problema com o deploy e como não queria demorar para entregar o teste optei por outra opção. Por isso, fiz pelo Netlify.
+
+- [Acessar site](https://cssgabriel-teste-alpes-one.netlify.app/)
 
 # Tecnologias usadas
 
 > HTML
 > CSS
 > JavaScript
->
-> > React
-> > TypeScript
+> SASS
+> React
+> TypeScript
 
-- Porque fiz essa escolha?
+- **Porque fiz essa escolha?**
+
+Aproveitei para usar React + TypeScript + SASS por que assim eu poderia demonstrar meu conhecimento tanto em HTML/CSS (SASS) e JavaScript. Bem como, também sobre componentização.
+
+Apesar de não utilizar GULP com tanta frequência, também sei o básico sobre.
+
+# Espero que gostem
+
+Sei que talvez ficaram alguns pequenos detalhes para trás, mas eu decidi optar por ser o mais ágil possível e realizar a entrega.
+
+Qualquer dúvida fico à disposição.
 
 # React + TypeScript + Vite
 

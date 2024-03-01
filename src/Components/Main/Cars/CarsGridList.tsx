@@ -1,20 +1,22 @@
 import CarsGridItem from "./CarsGridItem";
-
-const pathBaseCarList = "./src/assets/imgs/veiculos/";
-
-const getSrcPath = function (nameArq: string) {
-  return pathBaseCarList + nameArq;
-};
+import serie1 from "../../../assets/imgs/veiculos/serie1.png";
+import m3 from "../../../assets/imgs/veiculos/m3.png";
+import m5 from "../../../assets/imgs/veiculos/m5.png";
+import x2 from "../../../assets/imgs/veiculos/x2.png";
+import serie4 from "../../../assets/imgs/veiculos/serie4.png";
+import serie3 from "../../../assets/imgs/veiculos/serie3.png";
+import z4 from "../../../assets/imgs/veiculos/z4.png";
+import serie2 from "../../../assets/imgs/veiculos/serie2.png";
 
 const carList = [
-  { alt: "BMW Série 1", src: getSrcPath("serie1.png") },
-  { alt: "BMW M3 Competition", src: getSrcPath("m3.png") },
-  { alt: "BMW M5", src: getSrcPath("m5.png") },
-  { alt: "BMW X2", src: getSrcPath("x2.png") },
-  { alt: "BMW Série 4", src: getSrcPath("serie4.png") },
-  { alt: "BMW Série 3", src: getSrcPath("serie3.png") },
-  { alt: "BMW Z4", src: getSrcPath("z4.png") },
-  { alt: "BMW Série 2", src: getSrcPath("serie2.png") },
+  { alt: "BMW Série 1", src: serie1 },
+  { alt: "BMW M3 Competition", src: m3 },
+  { alt: "BMW M5", src: m5 },
+  { alt: "BMW X2", src: x2 },
+  { alt: "BMW Série 4", src: serie4 },
+  { alt: "BMW Série 3", src: serie3 },
+  { alt: "BMW Z4", src: z4 },
+  { alt: "BMW Série 2", src: serie2 },
 ];
 
 const CarsGridList = () => {

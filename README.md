@@ -12,6 +12,17 @@ https://github.com/cssgabriel/teste-alpes-one.git
 
 - [Acessar site](https://gabrielcss.com.br)
 
+# Tecnologias usadas
+
+> HTML
+> CSS
+> JavaScript
+>
+> > React
+> > TypeScript
+
+- Porque fiz essa escolha?
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

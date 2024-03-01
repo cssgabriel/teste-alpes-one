@@ -4,7 +4,20 @@
   & > div {
     justify-content: flex-end;
     align-items: flex-start;
-    height: 40.625vw;
     padding: var(--gutter-sm) 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .banner {
+    height: 40.625vw;
+    background-size: cover;
+    min-height: 51rem;
+    // max-height: 78.6rem;
+  }
+}
+@media (max-width: 432px) {
+  .banner {
+    background-image: url("../../../assets/imgs/banners/mobile-banner.png");
   }
 }

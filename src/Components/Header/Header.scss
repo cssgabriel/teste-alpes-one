@@ -3,7 +3,56 @@
   font-size: 1.4rem;
   display: grid;
   grid-template-columns: 1fr auto;
+  background-color: var(--color-1);
   & nav ul li {
     cursor: pointer;
+  }
+  & > a.btn {
+    display: none;
+  }
+  & .header__logo {
+    background-image: url("../../assets/imgs/logos/logo-bmw-rio.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 9.1rem;
+    height: 9.1rem;
+  }
+  &.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    grid-template-columns: 1fr max(28rem, 30%);
+    padding: 0;
+    & > .nav-menu {
+      display: none;
+    }
+    & .header__logo {
+      width: 4rem;
+      height: 4rem;
+      margin: 1rem 3rem;
+    }
+  }
+}
+
+.mobile {
+  & .header {
+    align-items: center;
+    & .nav-menu {
+      display: none;
+    }
+    & > a.btn {
+      display: flex;
+    }
+  }
+  & .header:not(.fixed) {
+    padding: var(--gutter-sm);
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    & .header__logo {
+      order: 2;
+      width: 3.4rem;
+      height: 3.4rem;
+    }
   }
 }

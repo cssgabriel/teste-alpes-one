@@ -1,11 +1,12 @@
+import React from "react";
 import CarroSVG from "../../../assets/icons/svg/CarroSVG";
 import Button from "../Button";
 import "./Form.scss";
 import Input from "./Input";
 
-const Form = () => {
+const Form = ({ style }: { style?: React.CSSProperties }) => {
   return (
-    <form className="form" onSubmit={(e) => e.preventDefault()}>
+    <form className="form" onSubmit={(e) => e.preventDefault()} style={style}>
       <fieldset>
         <legend className="d-flex">
           <CarroSVG fill="var(--color-s)" /> Solicitar cotação

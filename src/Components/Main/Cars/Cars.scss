@@ -17,6 +17,9 @@
     & .cars__grid-content {
       padding: 1.6rem 2rem 2rem;
       flex-direction: column;
+      & .ligar {
+        display: none;
+      }
     }
     & h3 {
       font-size: 2rem;
@@ -24,6 +27,7 @@
     }
     & .cars__grid-medias {
       padding: 4px 0;
+      align-items: center;
       & p {
         font-size: 1.2rem;
       }
@@ -34,5 +38,16 @@
         fill: var(--color-3);
       }
     }
+  }
+}
+
+.mobile .cars {
+  & .ligar {
+    display: flex !important;
+  }
+  & a:has(svg),
+  svg {
+    width: 2.4rem !important;
+    max-width: 2.4rem !important;
   }
 }
